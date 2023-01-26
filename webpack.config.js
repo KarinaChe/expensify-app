@@ -47,6 +47,9 @@ module.exports = (env,argv) =>{
       historyApiFallback:true
   
     },
+    performance: {
+      hints: false,
+    },
   };
 }
 

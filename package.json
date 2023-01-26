@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": "14.16.1"
+  },
   "scripts": {
     "serve": "live-server public/",
     "build:dev": "webpack --mode development",
@@ -54,5 +57,16 @@
   "devDependencies": {
     "mini-css-extract-plugin": "^2.7.2",
     "webpack-cli": "^4.10.0"
-  }
+  },
+  "description": "git init - create a new git ripo\r git status - view the changes to your project code\r git add - add files to the staging area\r git commit - create a new commit\r git log - view recent commits",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinaChe/expensify-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/KarinaChe/expensify-app/issues"
+  },
+  "homepage": "https://github.com/KarinaChe/expensify-app#readme"
 }

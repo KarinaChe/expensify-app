@@ -31,6 +31,7 @@
     "moment": "^2.29.4",
     "node-sass": "^8.0.0",
     "normalize.css": "^8.0.1",
+    "numeral": "^2.0.6",
     "raf": "3.3.2",
     "react": "17.0.0",
     "react-addons-shallow-compare": "^15.6.3",
@@ -45,17 +46,17 @@
     "transform-class-properties": "^1.0.0-beta",
     "uuid": "^9.0.0",
     "validator": "8.0.0",
-    "webpack": "^5.75.0" 
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "chalk": "^5.2.0",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.6.2",
     "jest": "^29.3.1",
-    "webpack-dev-server": "^4.11.1",
-    "react-test-renderer": "^18.2.0",
     "mini-css-extract-plugin": "^2.7.2",
-    "webpack-cli": "^4.10.0"
+    "react-test-renderer": "^18.2.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "description": "git init - create a new git ripo\r git status - view the changes to your project code\r git add - add files to the staging area\r git commit - create a new commit\r git log - view recent commits",
   "repository": {

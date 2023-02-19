@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { connect } from 'react-redux';
 import ExpenseForm from './ExpenseForm';
 import { editExpense } from '../actions/expenses';
-import { removeExpense } from '../actions/expenses';
+import { startRemoveExpense } from '../actions/expenses';
 import { useNavigate } from 'react-router-dom'; 
 
 
@@ -12,11 +12,11 @@ import { useNavigate } from 'react-router-dom';
 export class EditExpensePage extends React.Component {
   
   onSubmit = (expense) => {
-    this.props. editExpense(this.props.expense.id, expense)
+    this.props.editExpense(this.props.expense.id, expense)
     this.props.navigate('/')
    }
   onClick = ()=>{
-    this.props.removeExpense({id: this.props.expense.id})
+    this.props.startRemoveExpense({id: this.props.expense.id})
     this.props.navigate('/')
    }
   render(){
@@ -36,7 +36,7 @@ export class EditExpensePage extends React.Component {
 
 const mapDispatchToProps = (dispatch, props) =>({
   editExpense: (id, expense)=>dispatch(onSubmit(id,expense)),
-  removeExpense: (data)=>dispatch(removeExpense(data))
+  startRemoveExpense: (data)=>dispatch(startRemoveExpense(data))
 })
 
 function WithNavigate(props) {

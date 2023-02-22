@@ -7,7 +7,7 @@ exports[`should renderer Header correctly 1`] = `
   </h1>
   <NavLink
     className={[Function]}
-    to="/"
+    to="/dashboard"
   >
     Dashboard
   </NavLink>
@@ -16,18 +16,6 @@ exports[`should renderer Header correctly 1`] = `
     to="/create"
   >
     Create
-  </NavLink>
-  <NavLink
-    className={[Function]}
-    to="/edit"
-  >
-    Edit
-  </NavLink>
-  <NavLink
-    className={[Function]}
-    to="/help"
-  >
-    Help
   </NavLink>
   <button
     onClick={[Function]}
